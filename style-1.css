@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #ffd1eb;
+    background-color: #c0ffc0;
 }
 
 .kikkudayo{
@@ -12,4 +12,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.kikkudayo img {
+    width: 30%;
+    height: auto;
+
 }

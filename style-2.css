@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #000000;
+}
+.kikkudayo {
+  position: relative; /* NEW */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 684px;
+  height: 234px;
+}
+
+#soul {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 97px; 
+  left: 468px; 
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-image {
+  position: absolute; 
+  right: 25vh;
+  height: 90vh;
+  visibility: hidden;
+}
