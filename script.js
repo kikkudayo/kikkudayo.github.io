@@ -38,14 +38,20 @@ document.addEventListener('keydown', function (event) {
                     menuVisible++;
                 }
             } else {
+                
                 topPos += step;
             }
             break;
         case 'ArrowLeft':
+            
+        if(menuVisible == 0){
             leftPos -= step;
+        }
             break;
         case 'ArrowRight':
-            leftPos += step;
+            if (menuVisible == 0) {
+                leftPos += step;
+            }
             break;
         case 'c':
 
