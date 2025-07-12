@@ -46,6 +46,7 @@ document.addEventListener('keydown', function (event) {
             
         if(menuVisible == 0){
             leftPos -= step;
+
         }
             break;
         case 'ArrowRight':
